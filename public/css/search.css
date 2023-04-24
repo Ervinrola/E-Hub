@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+      /* Style for search results */
+      .search-results {
+        margin: 20px 0;
+      }
+
+      .search-results ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+
+      .search-results li {
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        margin-bottom: 10px;
+        padding: 10px;
+      }
+
+      .search-results li h2 {
+        font-size: 24px;
+        margin: 0;
+      }
+
+      .search-results li p {
+        font-size: 16px;
+        margin: 10px 0;
+      }
+
+      .search-results li a {
+        color: #333;
+        display: block;
+        text-decoration: none;
+      }
+
+      .search-results li a:hover {
+        background-color: #f4f4f4;
+      }
+
+      /* Style for pagination */
+      .pagination {
+        margin: 20px 0;
+      }
+
+      .pagination ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .pagination li {
+        margin: 0 5px;
+      }
+
+      .pagination li a {
+        background-color: #333;
+        border-radius: 5px;
+        color: #fff;
+        display: block;
+        font-size: 16px;
+        padding: 10px;
+        text-align: center;
+        text-decoration: none;
+      }
+
+      .pagination li a:hover {
+        background-color: #555;
+      }
+
+      .pagination li.active a {
+        background-color: #555;
+      }
+
+      .form-control:focus {
+        box-shadow: none;
+    }
+    .back-to-top-btn {
+        display: none;
+        position: fixed;
+        bottom: 100px;
+        right: 20px;
+        font-size: 16px;
+        color: #fff;
+        background-color: #333;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        z-index: 9999;
+    }
+
+    .back-to-top-btn:hover {
+        background-color: #555;
+    }
+
+
+    /* For Button */
+    .card-creative {
+            background-color: #ffffff;
+            border: none;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(160, 160, 160, 0.2);
+            margin-bottom: 20px;
+            overflow: hidden;
+
+        }
+
+        .card-header {
+            background-color: #ffffff;
+            color: #fff;
+            padding: 10px;
+        }
+
+        .widget-title a {
+            color: #050000;
+            font-size: 24px;
+            font-weight: 500;
+            text-decoration: none;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .card-body {
+            padding: 20px;
+        }
+
+        ul.list-unstyled {
+            margin-bottom: 0;
+        }
+
+        ul.list-unstyled li {
+            border-bottom: 1px solid #d9d9d9;
+            padding: 10px 0;
+        }
+
+        ul.list-unstyled li:last-child {
+            border-bottom: none;
+        }
+
+        .category-text {
+            color: #3c3c3c;
+            font-size: 18px;
+            font-weight: 400;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .widget_categories {
+            position: sticky;
+            top: 20px;
+            /* adjust the top value according to your preference */
+        }
+
+        .count {
+            background-color: #0004ff;
+            border-radius: 50%;
+            color: #ffffff;
+            display: inline-block;
+            font-size: 14px;
+            font-weight: 500;
+            height: 24px;
+            line-height: 24px;
+            margin-left: 10px;
+            text-align: center;
+            width: 24px;
+        }
+    /* :root {
+      --main-font: 'Inter', Arial, sans-serif;
+      --main-font-weight: 400;
+      --h-font: 'Open Sans', Arial, sans-serif;
+      --h-font-weight: 600;
+      --button-font: 'Inter', Arial, sans-serif;
+      --button-font-weight: 700;
+      --color-txt: #1D2B36;
+      --color-bg: #F9F9F9;
+      --color-main: #0084c2;
+      --color-main-025: rgba(0, 132, 194, 0.25);
+      --color-main-05: rgba(0, 132, 194, 0.5);
+      --color-main-075: rgba(0, 132, 194, 0.75);
+      --color-h: #1D2B36;
+      --color-meta: rgba(29, 43, 54, 0.5);
+      --color-header: hsl(196, 100%, 41%);
+      --color-button-primary: #FECF27;
+      --color-button-primary-text: #790000;
+      --color-button-secondary: #0084c2;
+      --color-button-tertiary: hsl(219, 60%, 95%);
+      --color-txt-075: rgba(29, 43, 54, 0.75);
+      --color-txt-05: rgba(29, 43, 54, 0.5);
+      --color-txt-025: rgba(29, 43, 54, 0.25);
+      --color-txt-015: rgba(29, 43, 54, 0.15);
+      --color-txt-01: rgba(29, 43, 54, 0.1);
+      --color-txt-005: rgba(29, 43, 54, 0.05);
+      --color-txt-0025: rgba(29, 43, 54, 0.025);
+      --color-header-middle-txt: #FFF;
+      --color-header-middle-txt-05: rgba(255, 255, 255, 0.5);
+      --color-header-middle-txt-075: rgba(255, 255, 255, 0.75);
+      --color-header-middle-acc: var(--color-header-middle-txt-075);
+      --font-size-p: 1.6rem;
+      --line-height-p: 1.8;
+      --font-size-small: 1.4rem;
+      --line-height-small: 1.4;
+      --font-size-nav: 1.4rem;
+      --font-size-p-large: 1.8rem;
+      --header-height: 90px;
+      --header-sticky-height: 70px;
+      --header-height-responsive-sm: 60px;
+      --header-height-responsive-md: 80px;
+      --width-full: 1102px;
+      --content-post: 940px;
+  }
+  
+  .widget-title {
+      font-size: 2.0rem;
+  }
+  
+  .entry-content .meks_ess_share_label {
+      font-size: 1.4rem;
+  }
+  
+  
+  h1,
+  .h1 {
+      font-size: clamp(2.4rem, 3vw, 3.0rem);
+  }
+  
+  h2,
+  .h2 {
+      font-size: clamp(2rem, 3vw, 2.4rem);
+  }
+  
+  h3,
+  .h3 {
+      font-size: clamp(2rem, 2vw, 2.0rem);
+  }
+  
+  h4,
+  .h4,
+  .mks_author_widget h3,
+  .wp-block-cover:not(.wp-block-kbg-search-box):not(.wp-block-kbg-contact-box) .wp-block-cover-image-text,
+  .wp-block-cover:not(.wp-block-kbg-search-box):not(.wp-block-kbg-contact-box) .wp-block-cover-text,
+  .wp-block-cover:not(.wp-block-kbg-search-box):not(.wp-block-kbg-contact-box) h2,
+  .wp-block-cover-image:not(.wp-block-kbg-search-box):not(.wp-block-kbg-contact-box) .wp-block-cover-image-text,
+  .wp-block-cover-image:not(.wp-block-kbg-search-box):not(.wp-block-kbg-contact-box) .wp-block-cover-text,
+  .wp-block-cover-image:not(.wp-block-kbg-search-box):not(.wp-block-kbg-contact-box) h2 {
+      font-size: clamp(1.8rem, 3vw, 1.8rem);
+  }
+  
+  h5,
+  .h5,
+  .header-el-label,
+  .fn,
+  .wp-block-kbg-accordion-item.col-lg-4 h4 {
+      font-size: clamp(1.6rem, 3vw, 1.6rem);
+  }
+  
+  h6,
+  .h6 {
+      font-size: clamp(1.4rem, 3vw, 1.4rem);
+  }
+  
+  @media (min-width: 600px) {
+  
+      .header-mobile>.container,
+      .header-sticky .header-middle>.container {
+          height: 80px;
+      }
+  }
+  
+  .kbg-button,
+  .wp-block-button .wp-block-button__link {
+      font-family: var(--button-font);
+      font-weight: var(--button-font-weight);
+  }
+  
+  .kbg-button.disabled,
+  .kbg-button.disabled:hover {
+      background-color: rgba(29, 43, 54, 0.1);
+      color: #1D2B36;
+      pointer-events: none;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  .fn,
+  .h7,
+  .h8 {
+      text-transform: none;
+  }
+  
+  .kbg-button,
+  .kbg-button-play span {
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+  }
+  
+  .has-kbg-text-color {
+      color: #1D2B36;
+  } */
